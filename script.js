@@ -1,8 +1,7 @@
 function onesDigit(n) {
-  // your code here
+	let a=n.toString();
+	let b=a[a.length-1];
+	return parseInt(b);
 }
-
-// Do not change the code below
-
 const n = prompt("Enter Number:");
 alert(onesDigit(n));
